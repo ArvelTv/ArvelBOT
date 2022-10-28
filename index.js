@@ -32,6 +32,27 @@ client.on("guildMemberAdd", member => {
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// Ping
+
+client.on("messageCreate", message => {
+    if (message.content == "!ping") {
+        let embed = new Discord.MessageEmbed()
+            .setTitle("Ping del bot")
+            .setDescription("Ecco la latenza del bot")
+            .addField("Ping", `${client.ws.ping}ms`)
+            .setFooter("Bot Made By ArvelTv#5506")
+            .setColor("007bff")
+            .setThumbnail("https://cdn.discordapp.com/attachments/1014921657170808882/1033017451811721266/arvel.png")
+        message.channel.send({embeds: [embed]})
+        client.channels.cache.get("1033018942500909216").send(`E Stato eseguito il comando !ping Nella chat: #${message.channel.name} | ID Discord: ${message.author.id} | Nome Utente: ${message.author.username}`) // log staff
+
+
+    }
+})
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 // Ticket
 
 //client.on("message", message => {
