@@ -46,7 +46,7 @@ Per essere pingato e essere avvisato quando arvel va in live/nuovo video Abilita
 
 Esiste a tutti gli utenti di eseguire il comando !transcript
 
-Dove si puo ricevere gli ultimi 300 messaggi della chat
+Dove si puo ricevere gli ultimi 100 messaggi della chat
 
 ------------------------------------------------------------------------------------------------------
 
