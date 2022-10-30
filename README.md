@@ -51,7 +51,3 @@ Dove si puo ricevere gli ultimi 100 messaggi della chat
 ------------------------------------------------------------------------------------------------------
 
 ** MORE COMING SOON **
-
-------------------------------------------------------------------------------------------------------
-
-Per chi si scarica questo bot deve dare i crediti (cioe a me) Della creazione dell' bot
